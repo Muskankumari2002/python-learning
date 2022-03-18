@@ -1,0 +1,24 @@
+from calendar import c
+from re import X
+from tabnanny import check
+
+
+A = ["Sita", "20BCS8285", 2]
+B = ["Ram", "20BCS8285", 4]
+M = A + B
+print(M)
+c = A[0] + B[0]
+print(c)
+A.append("My detail") # to add the data
+print (A) 
+D = ["riya","kiran","puja","Abhi"]
+D.sort() #to sort the data
+print(D)
+D.sort(reverse=True) #to arrange the data in decending order
+print(D)
+D.insert(2,"rima") # To insert the data
+print(D)
+newlist = [x for x in D if "A" in x[0]] # first letter A
+print(newlist)
+check = "r"
+
