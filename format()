@@ -1,0 +1,3 @@
+age = 20
+a ="my name is muskan , i am {} year old"
+print(a.format(age))
